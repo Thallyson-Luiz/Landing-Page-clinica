@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VittaCare - Clínica Integrada</title>
+    <meta name="description" content="Atendimento humanizado, medicina preventiva e tecnologia para cuidar de você." />
+    <link rel="icon" type="image/svg+xml" href="public/assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="public/css/main.css" />
+  </head>
+  <body>
+    <header class="header" data-header>
+      <div class="container header__inner">
+        <a href="#" class="logo">VittaCare</a>
+        <nav class="nav" data-nav>
+          <button class="nav__toggle" data-nav-toggle aria-expanded="false" aria-controls="primary-navigation">
+            <span class="sr-only">Abrir menu</span>
+            <span class="nav__hamburger"></span>
+          </button>
+          <ul id="primary-navigation" class="nav__list">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#beneficios">Benefícios</a></li>
+            <li><a href="#app">App</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#contato" id="agendar" class="btn btn--primary">Agendar</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <span class="kicker">Cuidar bem é nossa essência</span>
+            <h1>Saúde integrada com atenção humana e tecnologia</h1>
+            <p>
+              Consultas presenciais e online, exames e acompanhamento contínuo
+              em um só lugar. Sua jornada de bem‑estar começa aqui.
+            </p>
+            <div class="hero__actions">
+              <a href="#contato" class="btn btn--primary">Agendar Consulta</a>
+              <a href="#sobre" class="btn btn--ghost">Conhecer a clínica</a>
+            </div>
+          </div>
+          <div class="hero__media">
+            <img src="public/assets/hero_media.png" alt="Médico atendendo paciente com tecnologia moderna">
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="sobre">
+        <div class="container about__grid">
+          <div class="about__media">
+            <img src="public/assets/clinic_img.jpeg" alt="Equipe médica multidisciplinar da VittaCare">
+          </div>
+          <div class="about__content">
+            <h2>Sobre a VittaCare</h2>
+            <p>
+              Unimos especialistas de diversas áreas para oferecer um plano de cuidado
+              personalizado. Priorizamos prevenção, acompanhamento e informação clara.
+            </p>
+            <ul class="features">
+              <li>
+                <h3>Atendimento humanizado</h3>
+                <p>Consultas com tempo adequado e escuta ativa.</p>
+              </li>
+              <li>
+                <h3>Equipe multidisciplinar</h3>
+                <p>Médicos, enfermagem, nutrição e psicologia trabalhando juntos.</p>
+              </li>
+              <li>
+                <h3>Resultados rápidos</h3>
+                <p>Integração com laboratório e entrega digital de exames.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="benefits" id="beneficios">
+        <div class="container">
+          <header class="section-header">
+            <h2>Principais benefícios</h2>
+            <p>Mais tranquilidade para você focar no que importa.</p>
+          </header>
+          <div class="cards">
+            <article class="card">
+              <h3>Consulta no mesmo dia</h3>
+              <p>Agenda ágil para demandas imediatas e acompanhamento.</p>
+            </article>
+            <article class="card">
+              <h3>Telemedicina segura</h3>
+              <p>Atendimento online com prontuário integrado.</p>
+            </article>
+            <article class="card">
+              <h3>Plano de cuidado</h3>
+              <p>Metas, lembretes e retornos programados.</p>
+            </article>
+            <article class="card">
+              <h3>Clube de prevenção</h3>
+              <p>Conteúdos, workshops e programas de hábitos.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="app" id="app">
+        <div class="container app__grid">
+          <div class="app__media">
+            <img src="public/assets/app-mockup.svg" alt="Mockup do aplicativo VittaCare">
+          </div>
+          <div class="app__content">
+            <h2>Saúde na palma da mão</h2>
+            <p>Acompanhe consultas, resultados e orientações pelo nosso aplicativo.</p>
+            <div class="store-badges">
+              <img src="public/assets/store-badges.svg" alt="Disponível na App Store e Google Play">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials" id="depoimentos">
+        <div class="container">
+          <header class="section-header">
+            <h2>Nossas avaliações</h2>
+            <p>Relatos reais de quem já foi cuidado por nós.</p>
+          </header>
+          <ul class="reviews-grid">
+            <li class="review-card">
+              <div class="review-card__head">
+                <div class="avatar" aria-hidden="true">M</div>
+                <div>
+                  <strong>Marina Luz</strong>
+                  <span class="meta">1 review</span>
+                </div>
+              </div>
+              <div class="stars" aria-label="5 de 5">★★★★★</div>
+              <p>Melhor experiência que já tive em uma clínica.</p>
+            </li>
+            <li class="review-card">
+              <div class="review-card__head">
+                <div class="avatar" aria-hidden="true">J</div>
+                <div>
+                  <strong>Juliana Rocha</strong>
+                  <span class="meta">1 review</span>
+                </div>
+              </div>
+              <div class="stars" aria-label="5 de 5">★★★★★</div>
+              <p>Ambiente limpo e equipe preparada.</p>
+            </li>
+            <li class="review-card">
+              <div class="review-card__head">
+                <div class="avatar" aria-hidden="true">M</div>
+                <div>
+                  <strong>Maria Oliveira</strong>
+                  <span class="meta">1 review</span>
+                </div>
+              </div>
+              <div class="stars" aria-label="5 de 5">★★★★★</div>
+              <p>Ótimo atendimento, recomendo.</p>
+            </li>
+            <li class="review-card">
+              <div class="review-card__head">
+                <div class="avatar" aria-hidden="true">C</div>
+                <div>
+                  <strong>Carlos Henrique</strong>
+                  <span class="meta">1 review</span>
+                </div>
+              </div>
+              <div class="stars" aria-label="5 de 5">★★★★★</div>
+              <p>Agendamento rápido e pontualidade.</p>
+            </li>
+            <li class="review-card">
+              <div class="review-card__head">
+                <div class="avatar" aria-hidden="true">A</div>
+                <div>
+                  <strong>Ana Paula Mendes</strong>
+                  <span class="meta">1 review</span>
+                </div>
+              </div>
+              <div class="stars" aria-label="5 de 5">★★★★★</div>
+              <p>Fui muito bem atendida. Recomendo!</p>
+            </li>
+            <li class="review-card">
+              <div class="review-card__head">
+                <div class="avatar" aria-hidden="true">R</div>
+                <div>
+                  <strong>Renato Souza</strong>
+                  <span class="meta">1 review</span>
+                </div>
+              </div>
+              <div class="stars" aria-label="5 de 5">★★★★★</div>
+              <p>Excelentes profissionais e suporte contínuo.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="cta" aria-label="agendamento">
+        <div class="container cta__grid" id="contato">
+          <div class="cta__content">
+            <h2>Agende sua consulta</h2>
+            <p>Deixe seu contato e retornaremos ainda hoje.</p>
+          </div>
+          <form class="form" data-form novalidate>
+            <div class="form__row">
+              <label>Nome
+                <input type="text" name="nome" required />
+              </label>
+            </div>
+            <div class="form__row">
+              <label>Telefone
+                <input type="tel" name="telefone" required />
+              </label>
+            </div>
+            <div class="form__row">
+              <label>Especialidade
+                <select name="especialidade" required>
+                  <option value="">Selecione</option>
+                  <option>Clínica Geral</option>
+                  <option>Pediatria</option>
+                  <option>Ginecologia</option>
+                  <option>Cardiologia</option>
+                </select>
+              </label>
+            </div>
+            <button class="btn btn--primary" type="submit">Enviar</button>
+            <p class="form__feedback" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__grid">
+        <div>
+          <strong>VittaCare</strong>
+          <p>Cuidando de você em todas as fases.</p>
+        </div>
+        <nav aria-label="rodapé">
+          <ul class="footer__links">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#beneficios">Benefícios</a></li>
+            <li><a href="#app">App</a></li>
+            <li><a href="#contato">Agendar</a></li>
+          </ul>
+        </nav>
+        <div class="footer__copy">© <span id="year"></span> VittaCare. Todos os direitos reservados.</div>
+      </div>
+    </footer>
+
+    <script src="public/js/main.js" defer></script>
+  </body>
+  </html>
+

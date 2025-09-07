@@ -1,0 +1,27 @@
+{
+  "name": "landing-page-clinica",
+  "version": "1.0.0",
+  "description": "🩺 Landing page para clinica feita com Sass, javascript e html.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "sass --watch src/scss:public/css",
+    "build": "sass src/scss:public/css --no-source-map --style=compressed",
+    "preview": "serve -l 5173 ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thallyson-Luiz/Landing-Page-clinica.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thallyson-Luiz/Landing-Page-clinica/issues"
+  },
+  "homepage": "https://github.com/Thallyson-Luiz/Landing-Page-clinica#readme",
+  "devDependencies": {
+    "sass": "^1.92.1",
+    "serve": "^14.2.5"
+  }
+}

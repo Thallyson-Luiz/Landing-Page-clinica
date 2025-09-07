@@ -1,0 +1,9 @@
+@use '../utils/variables' as *;
+.btn{display:inline-flex;align-items:center;gap:.5rem;border:1px solid transparent;border-radius:$radius-sm;padding:.75rem 1rem;font-weight:600;cursor:pointer;transition:all .2s ease;box-shadow:$shadow-sm}
+.btn--primary{background:$palette-primary;color:$white}
+.btn--primary:hover{background:$palette-primary-700}
+.btn--ghost{background:transparent;border-color:$gray-300;color:$gray-900}
+.btn--ghost:hover{border-color:$palette-primary;color:$palette-primary;box-shadow:$shadow-md}
+
+#agendar:hover{background:$palette-primary-700;box-shadow:$shadow-md; color: $white;}
+

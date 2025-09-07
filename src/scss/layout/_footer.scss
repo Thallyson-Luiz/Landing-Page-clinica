@@ -1,0 +1,9 @@
+@use '../utils/variables' as *;
+.footer{background:$gray-900;color:$white;margin-top:3rem}
+.footer__grid{display:grid;gap:1rem;padding:2rem 0;grid-template-columns:1.2fr .8fr 1fr}
+.footer a{color:$white}
+.footer__links{display:grid;gap:.5rem}
+.footer__copy{font-size:.875rem;color:$gray-300}
+.footer p {color: $gray-300;}
+@media (max-width:900px){.footer__grid{grid-template-columns:1fr}}
+
